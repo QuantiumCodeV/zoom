@@ -1,0 +1,1498 @@
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px;
+}
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px;
+}
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px;
+}
+.CoveoActionButton .coveo-actionbutton_icon svg {
+  height: 1em;
+  width: 1em;
+  fill: #4a4a4a;
+}
+.CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+  margin-left: 8px;
+}
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px;
+}
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke;
+}
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a;
+}
+
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px;
+}
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px;
+}
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px;
+}
+.CoveoActionButton .coveo-actionbutton_icon svg {
+  height: 1em;
+  width: 1em;
+  fill: #4a4a4a;
+}
+.CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+  margin-left: 8px;
+}
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px;
+}
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke;
+}
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a;
+}
+
+button.CoveoActionButton.coveo-actionbutton.coveo-toggleactionbutton-activated {
+  background-color: #316084;
+  border-color: #316084;
+}
+button.CoveoActionButton.coveo-actionbutton.coveo-toggleactionbutton-activated .coveo-actionbutton_icon svg {
+  fill: #ffffff;
+}
+
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px;
+}
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px;
+}
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px;
+}
+.CoveoActionButton .coveo-actionbutton_icon svg {
+  height: 1em;
+  width: 1em;
+  fill: #4a4a4a;
+}
+.CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+  margin-left: 8px;
+}
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px;
+}
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke;
+}
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a;
+}
+
+button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-actionbutton_icon svg {
+  fill: #e5e5e5;
+}
+
+.CoveoQuickview.coveo-result-actions-menu-menu-item, .CoveoResultActionsMenu {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.CoveoAttachResult div.coveo-icon-loading, .CoveoAttachResult div.coveo-icon-attached, .CoveoAttachResult div.coveo-icon-attach, .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  border: thin solid transparent;
+}
+.CoveoAttachResult div.coveo-icon-loading svg, .CoveoAttachResult div.coveo-icon-attached svg, .CoveoAttachResult div.coveo-icon-attach svg, .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon svg {
+  height: 22px;
+  width: 22px;
+  padding: 3.6666666667px;
+  border: thin solid transparent;
+  box-sizing: border-box;
+}
+
+.CoveoResultActionsMenu {
+  cursor: pointer;
+  display: none;
+  position: relative;
+  height: 22px;
+  line-height: 19.8px;
+  border-radius: 5px;
+  background: white;
+  right: 0;
+  margin-top: -22px;
+}
+.CoveoResultActionsMenu.coveo-menu-opened {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  float: right;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item {
+  height: 22px;
+  position: relative;
+  box-sizing: border-box;
+  border: thin solid #b5c4cf;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon {
+  fill: #316084;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon-for-quickview {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon-for-quickview svg {
+  fill: #316084;
+  height: 22px;
+  width: 22px;
+  padding: 3.6666666667px 0;
+  box-sizing: border-box;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover, .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:active {
+  transition: 0.2s background-color ease-in-out;
+  background-color: whitesmoke;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon, .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:active .coveo-caption-for-icon {
+  display: inline;
+  top: 28px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:active {
+  background-color: #b5c4cf;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-caption-for-icon {
+  font-size: 12px;
+  display: none;
+  background: #263e55;
+  color: white;
+  border-radius: 2px;
+  padding: 6px 16px;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1000;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-caption-for-icon:before {
+  border: solid;
+  border-color: #263e55 transparent;
+  border-width: 0 6px 7px;
+  content: "";
+  position: absolute;
+  z-index: 1000;
+  top: -6px;
+  left: calc(50% - 6px);
+}
+
+.CoveoQuickview.coveo-result-actions-menu-menu-item > div {
+  height: 22px;
+  width: 22px;
+}
+.CoveoQuickview.coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon {
+  display: inline !important;
+  top: 28px !important;
+  transform: translateX(-50%) !important;
+  left: 50% !important;
+}
+.CoveoQuickview.coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon > div {
+  display: none;
+}
+
+.CoveoAttachResult div {
+  display: inline-block;
+}
+.CoveoAttachResult div.coveo-icon-attach {
+  fill: #316084;
+}
+.CoveoAttachResult div.coveo-icon-attached {
+  fill: #ef9700;
+}
+.CoveoAttachResult div.coveo-icon-loading {
+  fill: #316084;
+}
+.CoveoAttachResult div.coveo-icon-loading svg {
+  animation: loading 0.8s linear 0s infinite normal running;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.coveo-label {
+  color: black;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.coveo-content {
+  color: black;
+  font-size: 1em;
+}
+
+.coveo-link {
+  color: #004990;
+  text-decoration: none;
+}
+.coveo-link:hover {
+  text-decoration: underline;
+}
+
+.coveo-user-actions-opened .CoveoUserActions {
+  display: block;
+}
+.coveo-user-actions-opened .coveo-main-section {
+  display: none;
+}
+
+.CoveoUserActions {
+  display: none;
+  margin-top: 10px;
+  max-width: 1200px;
+  padding: 0;
+  background-color: #fff;
+}
+.CoveoUserActions > h1 {
+  color: #004990;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+.CoveoUserActions .coveo-no-actions {
+  padding: 1em;
+  border: 1px solid #b5c4cf;
+  border-radius: 2px;
+  background-color: #f7f8f9;
+  height: 15rem;
+  text-align: left;
+}
+.CoveoUserActions .coveo-no-actions .coveo-user-actions-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  width: auto;
+  margin-bottom: 1em;
+}
+.CoveoUserActions .coveo-no-actions .coveo-no-actions-causes {
+  margin: 0.5em 0;
+}
+.CoveoUserActions .coveo-enable-prompt {
+  padding: 1.5em;
+  text-align: center;
+}
+.CoveoUserActions .coveo-close {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-align: right;
+}
+.CoveoUserActions-opened .coveo-user-actions {
+  display: block;
+}
+.CoveoUserActions-opened .coveo-main-section {
+  display: none;
+}
+.CoveoUserActions .coveo-loading-container {
+  position: relative;
+  height: 10rem;
+  top: 10rem;
+}
+
+.coveo-expandable-list {
+  padding-bottom: 1.5em;
+}
+.coveo-expandable-list .coveo-title {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin: 0 0 0.75em;
+  text-transform: uppercase;
+}
+.coveo-expandable-list .coveo-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row {
+  display: flex;
+  position: relative;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row a {
+  width: calc(100% - 24px);
+  margin-bottom: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row .coveo-row-icon {
+  position: relative;
+  width: 24px;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row .coveo-row-icon > svg {
+  position: absolute;
+  top: 2px;
+  height: 1em;
+  width: 1em;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row .coveo-tooltip-origin1 {
+  display: none;
+  position: absolute;
+  top: -2.75em;
+  padding: 8px 12px;
+  background-color: #004990;
+  border-radius: 4px;
+  color: white;
+  margin-left: 1.5em;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row .coveo-tooltip-origin1:after {
+  position: absolute;
+  top: 100%;
+  content: "";
+  left: 1em;
+  border: 10px solid;
+  border-color: #004990 transparent transparent transparent;
+}
+.coveo-expandable-list .coveo-list li .coveo-list-row:hover .coveo-tooltip-origin1 {
+  display: flex;
+}
+.coveo-expandable-list .coveo-more-less {
+  font-size: 0.8em;
+  border: 0;
+  padding: 0;
+  color: #004990;
+  text-decoration: underline;
+  font-weight: normal;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 0.5em;
+  margin-left: 24px;
+}
+
+.coveo-user-activity {
+  margin-top: 1em;
+  background-color: #f7f8f9;
+}
+.coveo-user-activity .coveo-header {
+  font-size: 1em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+}
+.coveo-user-activity .coveo-header .coveo-cell {
+  margin-right: 2em;
+}
+.coveo-user-activity .coveo-header .coveo-cell:last-child {
+  margin-right: 0em;
+}
+.coveo-user-activity .coveo-header .coveo-data {
+  margin-top: 1em;
+  font-weight: bold;
+}
+.coveo-user-activity .coveo-activity {
+  margin: 0;
+  padding: 0 0 1.5em 0;
+  list-style-type: none;
+}
+.coveo-user-activity .coveo-activity .coveo-data {
+  font-weight: bold;
+}
+.coveo-user-activity .coveo-activity .coveo-folded {
+  cursor: pointer;
+  border: 0;
+  padding: 0.5em 0;
+  text-align: center;
+}
+.coveo-user-activity .coveo-activity .coveo-folded hr {
+  height: 0;
+  border: 0;
+  border-bottom: thin solid #cfd9e0;
+  overflow: visible;
+}
+.coveo-user-activity .coveo-activity .coveo-folded hr .coveo-text {
+  position: relative;
+  top: -0.5em;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1em;
+  height: 1em;
+  padding: 0 0.5em;
+  background-color: #f7f8f9;
+  color: #004990;
+}
+.coveo-user-activity .coveo-activity .coveo-folded-actions {
+  cursor: pointer;
+  padding-top: 0.5em;
+  padding-bottom: 0.8em;
+  display: flex;
+}
+.coveo-user-activity .coveo-activity .coveo-folded-actions .coveo-text {
+  margin-left: 0.5em;
+  color: #004990;
+  font-size: 0.8em;
+}
+.coveo-user-activity .coveo-activity .coveo-folded-actions > .coveo-icon > svg {
+  font-size: 0.5em;
+  fill: #004990;
+}
+.coveo-user-activity .coveo-activity .coveo-activity-title-section {
+  display: table;
+  table-layout: fixed;
+  margin: 0.25em 0;
+  width: 100%;
+}
+.coveo-user-activity .coveo-activity .coveo-activity-title-section .coveo-activity-title {
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: left;
+  display: table-cell;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.coveo-user-activity .coveo-activity .coveo-activity-title-section .coveo-activity-timestamp {
+  box-sizing: border-box;
+  font-size: 0.8em;
+  color: #67768b;
+  vertical-align: top;
+  text-align: right;
+  display: table-cell;
+}
+.coveo-user-activity .coveo-activity .coveo-case-creation-action .coveo-activity-title {
+  font-weight: bold;
+}
+.coveo-user-activity .coveo-activity .coveo-case-creation-action .coveo-icon {
+  background-color: #f7f8f9;
+}
+.coveo-user-activity .coveo-activity .coveo-session-container .coveo-session-header {
+  font-style: italic;
+  font-weight: 700;
+  color: #626971;
+  padding: 0.5em 0;
+}
+.coveo-user-activity .coveo-activity .coveo-bubble {
+  height: 1.5em;
+  border-left: thin solid #004990;
+  margin-left: 0.5em;
+}
+.coveo-user-activity .coveo-activity .coveo-click a,
+.coveo-user-activity .coveo-activity .coveo-view a {
+  cursor: pointer;
+  color: #004990;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+.coveo-user-activity .coveo-activity .coveo-click a:hover,
+.coveo-user-activity .coveo-activity .coveo-view a:hover {
+  text-decoration: underline;
+}
+.coveo-user-activity .coveo-activity .coveo-click,
+.coveo-user-activity .coveo-activity .coveo-search,
+.coveo-user-activity .coveo-activity .coveo-custom,
+.coveo-user-activity .coveo-activity .coveo-view {
+  position: relative;
+  margin-left: 0.5em;
+  border-left: thin solid #004990;
+  padding-left: 1.5em;
+}
+.coveo-user-activity .coveo-activity .coveo-click .coveo-icon,
+.coveo-user-activity .coveo-activity .coveo-search .coveo-icon,
+.coveo-user-activity .coveo-activity .coveo-custom .coveo-icon,
+.coveo-user-activity .coveo-activity .coveo-view .coveo-icon {
+  position: absolute;
+  left: -0.75em;
+  top: -0.1em;
+  padding: 0;
+  height: 1.5em;
+  width: 1.5em;
+}
+.coveo-user-activity .coveo-activity .coveo-click .coveo-icon > svg,
+.coveo-user-activity .coveo-activity .coveo-search .coveo-icon > svg,
+.coveo-user-activity .coveo-activity .coveo-custom .coveo-icon > svg,
+.coveo-user-activity .coveo-activity .coveo-view .coveo-icon > svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+.coveo-user-activity .coveo-activity .coveo-click > div,
+.coveo-user-activity .coveo-activity .coveo-search > div,
+.coveo-user-activity .coveo-activity .coveo-custom > div,
+.coveo-user-activity .coveo-activity .coveo-view > div {
+  padding-bottom: 0.5em;
+}
+.coveo-user-activity .coveo-activity .coveo-click:last-child,
+.coveo-user-activity .coveo-activity .coveo-search:last-child,
+.coveo-user-activity .coveo-activity .coveo-custom:last-child,
+.coveo-user-activity .coveo-activity .coveo-view:last-child {
+  padding-bottom: 0;
+  border-left: 0;
+}
+.coveo-user-activity .coveo-activity .coveo-click .coveo-footer,
+.coveo-user-activity .coveo-activity .coveo-search .coveo-footer,
+.coveo-user-activity .coveo-activity .coveo-custom .coveo-footer,
+.coveo-user-activity .coveo-activity .coveo-view .coveo-footer {
+  font-size: 0.8em;
+  color: #626971;
+  padding-bottom: 1.7em;
+}
+.coveo-user-activity .coveo-activity .coveo-click .coveo-caption-for-icon,
+.coveo-user-activity .coveo-activity .coveo-search .coveo-caption-for-icon,
+.coveo-user-activity .coveo-activity .coveo-custom .coveo-caption-for-icon,
+.coveo-user-activity .coveo-activity .coveo-view .coveo-caption-for-icon {
+  font-size: 0.8em;
+  display: none;
+  background: #263e55;
+  color: white;
+  border-radius: 2px;
+  padding: 6px 16px;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+}
+.coveo-user-activity .coveo-activity .coveo-click .coveo-caption-for-icon,
+.coveo-user-activity .coveo-activity .coveo-search .coveo-caption-for-icon,
+.coveo-user-activity .coveo-activity .coveo-custom .coveo-caption-for-icon,
+.coveo-user-activity .coveo-activity .coveo-view .coveo-caption-for-icon {
+  display: inline;
+}
+
+.coveo-accordion {
+  padding: 0 1em;
+  border: 1px solid #b5c4cf;
+  border-radius: 2px;
+  background-color: #f7f8f9;
+}
+.coveo-accordion:first-child {
+  margin-bottom: 1em;
+}
+.coveo-accordion-header {
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+.coveo-accordion-header-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  width: auto;
+}
+.coveo-accordion-header .coveo-arrow-down svg {
+  height: 1em;
+  fill: black;
+  transform: rotate(180deg);
+  width: 0.5em;
+  padding: 0.25em 0 0;
+}
+.coveo-accordion.coveo-folded .coveo-accordion-foldable {
+  display: none;
+}
+.coveo-accordion.coveo-folded .coveo-arrow-down svg {
+  transform: initial;
+  padding: 0 0 0.25em;
+}
+
+/**
+ * Ensure base css for button is present.
+ */
+.coveo-dropdown-header-wrapper {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+.coveo-dropdown-header-wrapper .coveo-user-actions-dropdown-header {
+  border: thin solid #bcc3ca;
+  border-radius: 2px;
+  background-color: white;
+}
+.coveo-dropdown-header-wrapper a {
+  margin-right: 10px;
+}
+.coveo-dropdown-header-wrapper .coveo-dropdown-header {
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 0 7px;
+  height: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.09px;
+  vertical-align: middle;
+  white-space: normal;
+  color: #1d4f76;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.coveo-dropdown-header-wrapper .coveo-dropdown-header p {
+  line-height: 16px;
+}
+.coveo-dropdown-header-wrapper .coveo-dropdown-header * {
+  display: inline-block;
+  margin: 0;
+}
+
+.coveo-label {
+  color: black;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.coveo-content {
+  color: black;
+  font-size: 1em;
+}
+
+.coveo-link {
+  color: #004990;
+  text-decoration: none;
+}
+.coveo-link:hover {
+  text-decoration: underline;
+}
+
+.CoveoViewedByCustomer {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.CoveoViewedByCustomer .viewed-by-customer-icon {
+  vertical-align: baseline;
+  margin-right: 0.5em;
+}
+.CoveoViewedByCustomer .viewed-by-customer-icon svg {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+.CoveoViewedByCustomer .viewed-by-customer-label {
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+.CoveoResultActionsMenu, .CoveoQuickview.coveo-result-actions-menu-menu-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon, .CoveoAttachResult div.coveo-icon-attach, .CoveoAttachResult div.coveo-icon-attached, .CoveoAttachResult div.coveo-icon-loading {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  border: thin solid transparent;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon svg, .CoveoAttachResult div.coveo-icon-attach svg, .CoveoAttachResult div.coveo-icon-attached svg, .CoveoAttachResult div.coveo-icon-loading svg {
+  height: 22px;
+  width: 22px;
+  padding: 3.6666666667px;
+  border: thin solid transparent;
+  box-sizing: border-box;
+}
+
+.CoveoResultActionsMenu {
+  cursor: pointer;
+  display: none;
+  position: relative;
+  height: 22px;
+  line-height: 19.8px;
+  border-radius: 5px;
+  background: white;
+  right: 0;
+  margin-top: -22px;
+}
+.CoveoResultActionsMenu.coveo-menu-opened {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  float: right;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item {
+  height: 22px;
+  position: relative;
+  box-sizing: border-box;
+  border: thin solid #b5c4cf;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon {
+  fill: #316084;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon-for-quickview {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon-for-quickview svg {
+  fill: #316084;
+  height: 22px;
+  width: 22px;
+  padding: 3.6666666667px 0;
+  box-sizing: border-box;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover, .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:active {
+  transition: 0.2s background-color ease-in-out;
+  background-color: whitesmoke;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon, .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:active .coveo-caption-for-icon {
+  display: inline;
+  top: 28px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:active {
+  background-color: #b5c4cf;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-caption-for-icon {
+  font-size: 12px;
+  display: none;
+  background: #263e55;
+  color: white;
+  border-radius: 2px;
+  padding: 6px 16px;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1000;
+}
+.CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-caption-for-icon:before {
+  border: solid;
+  border-color: #263e55 transparent;
+  border-width: 0 6px 7px;
+  content: "";
+  position: absolute;
+  z-index: 1000;
+  top: -6px;
+  left: calc(50% - 6px);
+}
+
+.CoveoQuickview.coveo-result-actions-menu-menu-item > div {
+  height: 22px;
+  width: 22px;
+}
+.CoveoQuickview.coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon {
+  display: inline !important;
+  top: 28px !important;
+  transform: translateX(-50%) !important;
+  left: 50% !important;
+}
+.CoveoQuickview.coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon > div {
+  display: none;
+}
+
+.CoveoTopQueries {
+  border: 1px solid #b5c4cf;
+  border-radius: 2px;
+  max-width: 500px;
+}
+.CoveoTopQueries h2 {
+  margin: 0;
+  padding: 6px;
+  background-color: #e4eaed;
+  font-size: 1.1em;
+  color: #1d4f76;
+}
+.CoveoTopQueries ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.CoveoTopQueries li {
+  margin: 0;
+  border-top: 1px solid #b5c4cf;
+  padding: 6px;
+  padding-left: 20px;
+}
+
+.slds-assistive-text {
+  position: absolute !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  text-transform: none !important;
+  white-space: nowrap !important;
+}
+
+/* Follow production class names (not starting with slds-) */
+/* stylelint-disable selector-class-pattern */
+.slds-spinner_container.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease, visibility 0s;
+  transition-delay: 0s, 0s;
+}
+
+.slds-spinner_container.hide {
+  display: none;
+}
+
+/* stylelint-enable selector-class-pattern */
+/**
+ * @name base
+ * @selector .slds-spinner
+ * @restrict div
+ * @support dev-ready
+ * @variant
+ */
+.slds-spinner {
+  position: absolute;
+  top: 50%;
+  /*! @noflip */
+  left: 50%;
+  z-index: 9050;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+/**
+ * @summary Returns the spinner back into the document flow
+ * @selector .slds-spinner_inline
+ * @restrict .slds-spinner
+ * @modifier
+ */
+.slds-spinner_inline {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  transform: none;
+}
+
+.slds-spinner,
+.slds-spinner__dot-a,
+.slds-spinner__dot-b {
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+/**
+ * This creates two of the circles
+ *
+ * @selector .slds-spinner__dot-a
+ * @restrict .slds-spinner div
+ * @required
+ */
+/**
+ * This creates two of the circles
+ *
+ * @selector .slds-spinner__dot-b
+ * @restrict .slds-spinner div
+ * @required
+ */
+.slds-spinner__dot-a,
+.slds-spinner__dot-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.slds-spinner:before,
+.slds-spinner:after,
+.slds-spinner__dot-a:before,
+.slds-spinner__dot-b:before,
+.slds-spinner__dot-a:after,
+.slds-spinner__dot-b:after {
+  content: "";
+  position: absolute;
+  background: #aeaeae;
+  border-radius: 50%;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.slds-spinner__dot-a {
+  transform: rotate(60deg);
+}
+
+.slds-spinner__dot-b {
+  transform: rotate(120deg);
+}
+
+.slds-spinner:before {
+  animation-delay: -83.33333ms;
+}
+
+.slds-spinner__dot-a:before {
+  animation-delay: 83.33333ms;
+}
+
+.slds-spinner__dot-b:before {
+  animation-delay: 250ms;
+}
+
+.slds-spinner:after {
+  animation-delay: 416.66667ms;
+}
+
+.slds-spinner__dot-a:after {
+  animation-delay: 583.33333ms;
+}
+
+.slds-spinner__dot-b:after {
+  animation-delay: 750ms;
+}
+
+/**
+ * @summary Set a delay of 300ms on spinner
+ * @selector .slds-spinner_delayed
+ * @restrict .slds-spinner
+ * @modifier
+ * @group timing
+ */
+.slds-spinner_delayed:before {
+  animation-delay: 216.66667ms;
+}
+.slds-spinner_delayed .slds-spinner__dot-a:before {
+  animation-delay: 383.33333ms;
+}
+.slds-spinner_delayed .slds-spinner__dot-b:before {
+  animation-delay: 550ms;
+}
+.slds-spinner_delayed:after {
+  animation-delay: 716.66667ms;
+}
+.slds-spinner_delayed .slds-spinner__dot-a:after {
+  animation-delay: 883.33333ms;
+}
+.slds-spinner_delayed .slds-spinner__dot-b:after {
+  animation-delay: 1050ms;
+}
+
+/**
+ * This creates the blue brand spinner
+ *
+ * @selector .slds-spinner_brand
+ * @restrict .slds-spinner
+ * @modifier
+ * @group color
+ */
+.slds-spinner_brand.slds-spinner:before, .slds-spinner_brand.slds-spinner:after,
+.slds-spinner_brand .slds-spinner__dot-a:before,
+.slds-spinner_brand .slds-spinner__dot-b:before,
+.slds-spinner_brand .slds-spinner__dot-a:after,
+.slds-spinner_brand .slds-spinner__dot-b:after,
+.slds-spinner--brand.slds-spinner:before,
+.slds-spinner--brand.slds-spinner:after,
+.slds-spinner--brand .slds-spinner__dot-a:before,
+.slds-spinner--brand .slds-spinner__dot-b:before,
+.slds-spinner--brand .slds-spinner__dot-a:after,
+.slds-spinner--brand .slds-spinner__dot-b:after {
+  background-color: #1b96ff;
+}
+
+/**
+ * This creates the inverse spinner
+ *
+ * @selector .slds-spinner_inverse
+ * @restrict .slds-spinner
+ * @modifier
+ */
+.slds-spinner_inverse.slds-spinner:before, .slds-spinner_inverse.slds-spinner:after,
+.slds-spinner_inverse .slds-spinner__dot-a:before,
+.slds-spinner_inverse .slds-spinner__dot-b:before,
+.slds-spinner_inverse .slds-spinner__dot-a:after,
+.slds-spinner_inverse .slds-spinner__dot-b:after,
+.slds-spinner--inverse.slds-spinner:before,
+.slds-spinner--inverse.slds-spinner:after,
+.slds-spinner--inverse .slds-spinner__dot-a:before,
+.slds-spinner--inverse .slds-spinner__dot-b:before,
+.slds-spinner--inverse .slds-spinner__dot-a:after,
+.slds-spinner--inverse .slds-spinner__dot-b:after {
+  background-color: #fff;
+}
+
+/**
+ * This is the extra extra small spinner
+ *
+ * @selector .slds-spinner_xx-small
+ * @restrict .slds-spinner
+ * @modifier
+ * @group size
+ */
+.slds-spinner_xx-small,
+.slds-spinner--xx-small {
+  width: 0.5rem;
+}
+.slds-spinner_xx-small.slds-spinner_inline,
+.slds-spinner--xx-small.slds-spinner_inline {
+  height: 0.5rem;
+}
+.slds-spinner_xx-small.slds-spinner:before, .slds-spinner_xx-small.slds-spinner:after,
+.slds-spinner_xx-small .slds-spinner__dot-a:before,
+.slds-spinner_xx-small .slds-spinner__dot-b:before,
+.slds-spinner_xx-small .slds-spinner__dot-a:after,
+.slds-spinner_xx-small .slds-spinner__dot-b:after,
+.slds-spinner--xx-small.slds-spinner:before,
+.slds-spinner--xx-small.slds-spinner:after,
+.slds-spinner--xx-small .slds-spinner__dot-a:before,
+.slds-spinner--xx-small .slds-spinner__dot-b:before,
+.slds-spinner--xx-small .slds-spinner__dot-a:after,
+.slds-spinner--xx-small .slds-spinner__dot-b:after {
+  width: 0.125rem;
+  height: 0.125rem;
+}
+.slds-spinner_xx-small.slds-spinner:before,
+.slds-spinner_xx-small .slds-spinner__dot-a:before,
+.slds-spinner_xx-small .slds-spinner__dot-b:before,
+.slds-spinner--xx-small.slds-spinner:before,
+.slds-spinner--xx-small .slds-spinner__dot-a:before,
+.slds-spinner--xx-small .slds-spinner__dot-b:before {
+  top: -0.0625rem;
+  left: -0.0625rem;
+  animation-name: dotsBounceBefore-extraExtraSmall;
+}
+.slds-spinner_xx-small.slds-spinner:after,
+.slds-spinner_xx-small .slds-spinner__dot-a:after,
+.slds-spinner_xx-small .slds-spinner__dot-b:after,
+.slds-spinner--xx-small.slds-spinner:after,
+.slds-spinner--xx-small .slds-spinner__dot-a:after,
+.slds-spinner--xx-small .slds-spinner__dot-b:after {
+  top: -0.0625rem;
+  right: -0.0625rem;
+  animation-name: dotsBounceAfter-extraExtraSmall;
+}
+
+@keyframes dotsBounceBefore-extraExtraSmall {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.275, 0.0425, 0.34, 0.265);
+  }
+  80% {
+    transform: translate3d(-0.125rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 0.555, 0.35, 0.715);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes dotsBounceAfter-extraExtraSmall {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    animation-timing-function: cubic-bezier(0.275, 0.0425, 0.34, 0.265);
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    animation-timing-function: cubic-bezier(0, 0.555, 0.35, 0.715);
+    transform: translate3d(0.125rem, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+/**
+ * This is the extra small spinner
+ *
+ * @selector .slds-spinner_x-small
+ * @restrict .slds-spinner
+ * @modifier
+ * @group size
+ */
+.slds-spinner_x-small,
+.slds-spinner--x-small {
+  width: 1rem;
+}
+.slds-spinner_x-small.slds-spinner_inline,
+.slds-spinner--x-small.slds-spinner_inline {
+  height: 1rem;
+}
+.slds-spinner_x-small.slds-spinner:before, .slds-spinner_x-small.slds-spinner:after,
+.slds-spinner_x-small .slds-spinner__dot-a:before,
+.slds-spinner_x-small .slds-spinner__dot-b:before,
+.slds-spinner_x-small .slds-spinner__dot-a:after,
+.slds-spinner_x-small .slds-spinner__dot-b:after,
+.slds-spinner--x-small.slds-spinner:before,
+.slds-spinner--x-small.slds-spinner:after,
+.slds-spinner--x-small .slds-spinner__dot-a:before,
+.slds-spinner--x-small .slds-spinner__dot-b:before,
+.slds-spinner--x-small .slds-spinner__dot-a:after,
+.slds-spinner--x-small .slds-spinner__dot-b:after {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+.slds-spinner_x-small.slds-spinner:before,
+.slds-spinner_x-small .slds-spinner__dot-a:before,
+.slds-spinner_x-small .slds-spinner__dot-b:before,
+.slds-spinner--x-small.slds-spinner:before,
+.slds-spinner--x-small .slds-spinner__dot-a:before,
+.slds-spinner--x-small .slds-spinner__dot-b:before {
+  top: -0.125rem;
+  left: -0.125rem;
+  animation-name: dotsBounceBefore-extraSmall;
+}
+.slds-spinner_x-small.slds-spinner:after,
+.slds-spinner_x-small .slds-spinner__dot-a:after,
+.slds-spinner_x-small .slds-spinner__dot-b:after,
+.slds-spinner--x-small.slds-spinner:after,
+.slds-spinner--x-small .slds-spinner__dot-a:after,
+.slds-spinner--x-small .slds-spinner__dot-b:after {
+  top: -0.125rem;
+  right: -0.125rem;
+  animation-name: dotsBounceAfter-extraSmall;
+}
+
+@keyframes dotsBounceBefore-extraSmall {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(-0.25rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes dotsBounceAfter-extraSmall {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(0.25rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+/**
+ * This is the small spinner
+ *
+ * @selector .slds-spinner_small
+ * @restrict .slds-spinner
+ * @modifier
+ * @group size
+ */
+.slds-spinner_small,
+.slds-spinner--small {
+  width: 1.25rem;
+}
+.slds-spinner_small.slds-spinner_inline,
+.slds-spinner--small.slds-spinner_inline {
+  height: 1.25rem;
+}
+.slds-spinner_small.slds-spinner:before, .slds-spinner_small.slds-spinner:after,
+.slds-spinner_small .slds-spinner__dot-a:before,
+.slds-spinner_small .slds-spinner__dot-b:before,
+.slds-spinner_small .slds-spinner__dot-a:after,
+.slds-spinner_small .slds-spinner__dot-b:after,
+.slds-spinner--small.slds-spinner:before,
+.slds-spinner--small.slds-spinner:after,
+.slds-spinner--small .slds-spinner__dot-a:before,
+.slds-spinner--small .slds-spinner__dot-b:before,
+.slds-spinner--small .slds-spinner__dot-a:after,
+.slds-spinner--small .slds-spinner__dot-b:after {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+.slds-spinner_small.slds-spinner:before,
+.slds-spinner_small .slds-spinner__dot-a:before,
+.slds-spinner_small .slds-spinner__dot-b:before,
+.slds-spinner--small.slds-spinner:before,
+.slds-spinner--small .slds-spinner__dot-a:before,
+.slds-spinner--small .slds-spinner__dot-b:before {
+  top: -0.125rem;
+  left: -0.125rem;
+  animation-name: dotsBounceBefore-small;
+}
+.slds-spinner_small.slds-spinner:after,
+.slds-spinner_small .slds-spinner__dot-a:after,
+.slds-spinner_small .slds-spinner__dot-b:after,
+.slds-spinner--small.slds-spinner:after,
+.slds-spinner--small .slds-spinner__dot-a:after,
+.slds-spinner--small .slds-spinner__dot-b:after {
+  top: -0.125rem;
+  right: -0.125rem;
+  animation-name: dotsBounceAfter-small;
+}
+
+@keyframes dotsBounceBefore-small {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(-0.375rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes dotsBounceAfter-small {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(0.375rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/**
+ * This is the medium spinner
+ *
+ * @selector .slds-spinner_medium
+ * @restrict .slds-spinner
+ * @modifier
+ * @group size
+ */
+.slds-spinner_medium,
+.slds-spinner--medium {
+  width: 2rem;
+}
+.slds-spinner_medium.slds-spinner_inline,
+.slds-spinner--medium.slds-spinner_inline {
+  height: 2rem;
+}
+.slds-spinner_medium.slds-spinner:before, .slds-spinner_medium.slds-spinner:after,
+.slds-spinner_medium .slds-spinner__dot-a:before,
+.slds-spinner_medium .slds-spinner__dot-b:before,
+.slds-spinner_medium .slds-spinner__dot-a:after,
+.slds-spinner_medium .slds-spinner__dot-b:after,
+.slds-spinner--medium.slds-spinner:before,
+.slds-spinner--medium.slds-spinner:after,
+.slds-spinner--medium .slds-spinner__dot-a:before,
+.slds-spinner--medium .slds-spinner__dot-b:before,
+.slds-spinner--medium .slds-spinner__dot-a:after,
+.slds-spinner--medium .slds-spinner__dot-b:after {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.slds-spinner_medium.slds-spinner:before,
+.slds-spinner_medium .slds-spinner__dot-a:before,
+.slds-spinner_medium .slds-spinner__dot-b:before,
+.slds-spinner--medium.slds-spinner:before,
+.slds-spinner--medium .slds-spinner__dot-a:before,
+.slds-spinner--medium .slds-spinner__dot-b:before {
+  animation-name: dotsBounceBefore-medium;
+  top: -0.25rem;
+  left: -0.25rem;
+}
+.slds-spinner_medium.slds-spinner:after,
+.slds-spinner_medium .slds-spinner__dot-a:after,
+.slds-spinner_medium .slds-spinner__dot-b:after,
+.slds-spinner--medium.slds-spinner:after,
+.slds-spinner--medium .slds-spinner__dot-a:after,
+.slds-spinner--medium .slds-spinner__dot-b:after {
+  animation-name: dotsBounceAfter-medium;
+  top: -0.25rem;
+  right: -0.25rem;
+}
+
+@keyframes dotsBounceBefore-medium {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(-0.5rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes dotsBounceAfter-medium {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(0.5rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/**
+ * This is the large spinner
+ *
+ * @selector .slds-spinner_large
+ * @restrict .slds-spinner
+ * @modifier
+ * @group size
+ */
+.slds-spinner_large,
+.slds-spinner--large {
+  width: 2.75rem;
+}
+.slds-spinner_large.slds-spinner_inline,
+.slds-spinner--large.slds-spinner_inline {
+  height: 2.75rem;
+}
+.slds-spinner_large.slds-spinner:before, .slds-spinner_large.slds-spinner:after,
+.slds-spinner_large .slds-spinner__dot-a:before,
+.slds-spinner_large .slds-spinner__dot-b:before,
+.slds-spinner_large .slds-spinner__dot-a:after,
+.slds-spinner_large .slds-spinner__dot-b:after,
+.slds-spinner--large.slds-spinner:before,
+.slds-spinner--large.slds-spinner:after,
+.slds-spinner--large .slds-spinner__dot-a:before,
+.slds-spinner--large .slds-spinner__dot-b:before,
+.slds-spinner--large .slds-spinner__dot-a:after,
+.slds-spinner--large .slds-spinner__dot-b:after {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+.slds-spinner_large.slds-spinner:before,
+.slds-spinner_large .slds-spinner__dot-a:before,
+.slds-spinner_large .slds-spinner__dot-b:before,
+.slds-spinner--large.slds-spinner:before,
+.slds-spinner--large .slds-spinner__dot-a:before,
+.slds-spinner--large .slds-spinner__dot-b:before {
+  animation-name: dotsBounceBefore-medium;
+  top: -0.3125rem;
+  left: -0.3125rem;
+}
+.slds-spinner_large.slds-spinner:after,
+.slds-spinner_large .slds-spinner__dot-a:after,
+.slds-spinner_large .slds-spinner__dot-b:after,
+.slds-spinner--large.slds-spinner:after,
+.slds-spinner--large .slds-spinner__dot-a:after,
+.slds-spinner--large .slds-spinner__dot-b:after {
+  animation-name: dotsBounceAfter-medium;
+  top: -0.3125rem;
+  right: -0.3125rem;
+}
+
+@keyframes dotsBounceBefore-large {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(-0.75rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes dotsBounceAfter-large {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  80% {
+    transform: translate3d(0.75rem, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1.11, 0.7, 1.43);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

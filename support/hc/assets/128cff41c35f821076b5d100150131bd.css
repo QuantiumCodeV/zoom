@@ -1,0 +1,225 @@
+.d-flx {
+	display: flex;
+}
+.flx-col {
+	flex-direction: column;
+}
+.flx-row {
+	flex-direction: row;
+}
+.gap-20 {
+	gap: 20px;
+}
+.gap-40 {
+	gap: 40px;
+}
+.gap-60 {
+	gap: 60px;
+}
+.gap-80 {
+	gap: 80px;
+}
+* {
+	margin: 0;
+}
+.divider-line {
+	width: 100%;
+	border: 1px solid #000;
+}
+.empty-a {
+	color: transparent !important;
+}
+.empty-a::after {
+	content: none !important;
+}
+.show-more-a::after {
+	background: url("blue-pointy-arrow.svg") transparent no-repeat center / cover;
+	content: "";
+	width: 10px;
+	height: 13px;
+	position: absolute;
+	right: 0;
+	top: 3.5px;
+}
+.show-more-a {
+	position: relative;
+	padding-right: 16px;
+	width: fit-content;
+}
+.cs-solutions-main-container {
+	padding: 80px 0;
+}
+.cta-section .title-text {
+	justify-content: space-between;
+	align-items: center;
+}
+.cta-section .title-text h1 {
+	font-size: 24px;
+	line-height: 32px;
+	color: #00031f;
+}
+.cta-section .title-text a {
+	font-size: 16px;
+	position: relative;
+}
+.cta-section .cta {
+	background: rgba(215, 230, 252, .5);
+	border: 2px solid #0b5cff;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+}
+.cta-section .cta .col-1 {
+	flex: 1;
+}
+.cta-section .cta .col-1 h2 {
+	font-size: 24px;
+	color: #00031f;
+}
+.cta-section .cta .col-1 p, .cta-section .cta .col-1 a {
+	font-size: 20px;
+	color: #00031f;
+}
+.cta-section .cta .col-2 {
+	align-items: center;
+	padding: 30px;
+}
+.article-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+.article-section .col-head {
+	grid-row: 1;
+}
+.article-section .col-body {
+	grid-row: 2;
+}
+.article-section h2 {
+	font-size: 20px;
+	color: #00053d;
+}
+.article-section ul {
+	border-bottom: 1px solid #f4f4f6;
+	padding-bottom: 20px;
+	height: 100%;
+}
+.article-section li {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+}
+.article-section li a {
+	font-size: 16px;
+	color: #515079;
+	position: relative;
+}
+.faq-section h2 {
+	font-size: 24px;
+	color: #00031f;
+}
+.faq-section ul li {
+	width: 100%;
+}
+.faq-section ul li h4 {
+	font-size: 16px;
+	color: #515079;
+	cursor: pointer;
+	position: relative;
+	padding: 10px 30px 10px 0;
+	border-bottom: 1px #e0e0e6;
+}
+.faq-section ul li h4:focus, .faq-section ul li h4:active {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	color: #085bcf;
+}
+.faq-section ul li h4::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 10px;
+	background: url("dropdown-arrow-blue.svg") transparent no-repeat center / contain;
+	width: 20px;
+	height: 20px;
+	transition: transform .3s ease;
+}
+.faq-section ul li h4[aria-expanded="true"]::after {
+	transform: rotate(180deg);
+}
+.faq-section .panel-body ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 10px;
+	column-gap: 20px;
+}
+.need-help-section h2 {
+	color: #00031f;
+	font-size: 24px;
+}
+.need-help-section .help-tiles {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 40px;
+}
+.need-help-section .help-tiles .tile {
+	background-color: #f8f8fa;
+	border: 1px solid #828099;
+	border-radius: 10px;
+	padding: 35px 20px;
+	justify-content: center;
+	align-items: center;
+	transition: all .3s ease;
+	text-align: center;
+}
+.need-help-section .help-tiles .tile img {
+	width: 36px;
+	height: 36px;
+}
+.need-help-section .help-tiles .tile h4 {
+	font-size: 20px;
+	color: #00031f;
+}
+.need-help-section .help-tiles .tile:hover {
+	text-decoration: none;
+	border: 1px solid #085bcf;
+	transform: scale(1.02);
+}
+.need-help-section p {
+	font-size: 20px;
+	color: #000;
+}
+@media screen and (max-width:768px) {
+	.cta-section .cta {
+		flex-direction: column;
+		gap: 0;
+	}
+	.cta-section .cta .col-2 {
+		padding: 20px 0;
+	}
+	.cta-section .cta .col-2 .primary-cta {
+		width: 100%;
+		text-align: center;
+	}
+	.article-section {
+		grid-template-columns: 1fr !important;
+		grid-template-rows: auto;
+	}
+	.article-section .col-head, .article-section .col-body {
+		grid-row: auto;
+	}
+	.article-section .col-body {
+		margin-bottom: 20px;
+	}
+	.need-help-section .help-tiles {
+		grid-template-columns: 1fr;
+		row-gap: 40px;
+	}
+	.faq-section .panel-body ul {
+		grid-template-columns: 1fr !important;
+		row-gap: 20px;
+	}
+}
