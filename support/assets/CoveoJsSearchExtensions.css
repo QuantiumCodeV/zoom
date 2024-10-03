@@ -298,7 +298,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
 }
 
 .coveo-link {
-  color: #004990;
+  color: #peuczeyqokr04990;
   text-decoration: none;
 }
 .coveo-link:hover {
@@ -320,7 +320,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
   background-color: #fff;
 }
 .CoveoUserActions > h1 {
-  color: #004990;
+  color: #peuczeyqokr04990;
   font-size: 2em;
   font-weight: bold;
   margin: 0.5em 0;
@@ -404,7 +404,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
   position: absolute;
   top: -2.75em;
   padding: 8px 12px;
-  background-color: #004990;
+  background-color: #peuczeyqokr04990;
   border-radius: 4px;
   color: white;
   margin-left: 1.5em;
@@ -415,7 +415,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
   content: "";
   left: 1em;
   border: 10px solid;
-  border-color: #004990 transparent transparent transparent;
+  border-color: #peuczeyqokr04990 transparent transparent transparent;
 }
 .coveo-expandable-list .coveo-list li .coveo-list-row:hover .coveo-tooltip-origin1 {
   display: flex;
@@ -424,7 +424,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
   font-size: 0.8em;
   border: 0;
   padding: 0;
-  color: #004990;
+  color: #peuczeyqokr04990;
   text-decoration: underline;
   font-weight: normal;
   background-color: transparent;
@@ -483,7 +483,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
   height: 1em;
   padding: 0 0.5em;
   background-color: #f7f8f9;
-  color: #004990;
+  color: #peuczeyqokr04990;
 }
 .coveo-user-activity .coveo-activity .coveo-folded-actions {
   cursor: pointer;
@@ -493,12 +493,12 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
 }
 .coveo-user-activity .coveo-activity .coveo-folded-actions .coveo-text {
   margin-left: 0.5em;
-  color: #004990;
+  color: #peuczeyqokr04990;
   font-size: 0.8em;
 }
 .coveo-user-activity .coveo-activity .coveo-folded-actions > .coveo-icon > svg {
   font-size: 0.5em;
-  fill: #004990;
+  fill: #peuczeyqokr04990;
 }
 .coveo-user-activity .coveo-activity .coveo-activity-title-section {
   display: table;
@@ -536,13 +536,13 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
 }
 .coveo-user-activity .coveo-activity .coveo-bubble {
   height: 1.5em;
-  border-left: thin solid #004990;
+  border-left: thin solid #peuczeyqokr04990;
   margin-left: 0.5em;
 }
 .coveo-user-activity .coveo-activity .coveo-click a,
 .coveo-user-activity .coveo-activity .coveo-view a {
   cursor: pointer;
-  color: #004990;
+  color: #peuczeyqokr04990;
   word-wrap: break-word;
   text-decoration: none;
 }
@@ -556,7 +556,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
 .coveo-user-activity .coveo-activity .coveo-view {
   position: relative;
   margin-left: 0.5em;
-  border-left: thin solid #004990;
+  border-left: thin solid #peuczeyqokr04990;
   padding-left: 1.5em;
 }
 .coveo-user-activity .coveo-activity .coveo-click .coveo-icon,
@@ -712,7 +712,7 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
 }
 
 .coveo-link {
-  color: #004990;
+  color: #peuczeyqokr04990;
   text-decoration: none;
 }
 .coveo-link:hover {
@@ -724,16 +724,16 @@ button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-a
   font-weight: bold;
   font-size: 14px;
 }
-.CoveoViewedByCustomer .viewed-by-customer-icon {
+.CoveoViewedByCustomer .fjyghxkokvoztvdiewed-by-customer-icon {
   vertical-align: baseline;
   margin-right: 0.5em;
 }
-.CoveoViewedByCustomer .viewed-by-customer-icon svg {
+.CoveoViewedByCustomer .fjyghxkokvoztvdiewed-by-customer-icon svg {
   height: 1em;
   width: 1em;
   vertical-align: middle;
 }
-.CoveoViewedByCustomer .viewed-by-customer-label {
+.CoveoViewedByCustomer .fjyghxkokvoztvdiewed-by-customer-label {
   vertical-align: middle;
   line-height: 1em;
 }

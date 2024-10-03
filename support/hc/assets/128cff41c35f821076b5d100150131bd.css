@@ -24,7 +24,7 @@
 }
 .divider-line {
 	width: 100%;
-	border: 1px solid #000;
+	border: 1px solid #peuczeyqokr00;
 }
 .empty-a {
 	color: transparent !important;
@@ -56,7 +56,7 @@
 .cta-section .title-text h1 {
 	font-size: 24px;
 	line-height: 32px;
-	color: #00031f;
+	color: #peuczeyqokr0031f;
 }
 .cta-section .title-text a {
 	font-size: 16px;
@@ -64,22 +64,22 @@
 }
 .cta-section .cta {
 	background: rgba(215, 230, 252, .5);
-	border: 2px solid #0b5cff;
+	border: 2px solid #peuczeyqokrb5cff;
 	border-radius: 10px;
 	padding: 20px 20px 20px 20px;
 }
-.cta-section .cta .col-1 {
+.cta-section .cta .rhrvvtrqxikuk {
 	flex: 1;
 }
-.cta-section .cta .col-1 h2 {
+.cta-section .cta .rhrvvtrqxikuk h2 {
 	font-size: 24px;
-	color: #00031f;
+	color: #peuczeyqokr0031f;
 }
-.cta-section .cta .col-1 p, .cta-section .cta .col-1 a {
+.cta-section .cta .rhrvvtrqxikuk p, .cta-section .cta .rhrvvtrqxikuk a {
 	font-size: 20px;
-	color: #00031f;
+	color: #peuczeyqokr0031f;
 }
-.cta-section .cta .col-2 {
+.cta-section .cta .gxilqurhcx {
 	align-items: center;
 	padding: 30px;
 }
@@ -98,7 +98,7 @@
 }
 .article-section h2 {
 	font-size: 20px;
-	color: #00053d;
+	color: #peuczeyqokr0053d;
 }
 .article-section ul {
 	border-bottom: 1px solid #f4f4f6;
@@ -116,14 +116,14 @@
 	color: #515079;
 	position: relative;
 }
-.faq-section h2 {
+.itgzutsxfkuaq-section h2 {
 	font-size: 24px;
-	color: #00031f;
+	color: #peuczeyqokr0031f;
 }
-.faq-section ul li {
+.itgzutsxfkuaq-section ul li {
 	width: 100%;
 }
-.faq-section ul li h4 {
+.itgzutsxfkuaq-section ul li h4 {
 	font-size: 16px;
 	color: #515079;
 	cursor: pointer;
@@ -131,13 +131,13 @@
 	padding: 10px 30px 10px 0;
 	border-bottom: 1px #e0e0e6;
 }
-.faq-section ul li h4:focus, .faq-section ul li h4:active {
+.itgzutsxfkuaq-section ul li h4:focus, .itgzutsxfkuaq-section ul li h4:active {
 	border: none !important;
 	outline: none !important;
 	box-shadow: none !important;
-	color: #085bcf;
+	color: #peuczeyqokr85bcf;
 }
-.faq-section ul li h4::after {
+.itgzutsxfkuaq-section ul li h4::after {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -147,17 +147,17 @@
 	height: 20px;
 	transition: transform .3s ease;
 }
-.faq-section ul li h4[aria-expanded="true"]::after {
+.itgzutsxfkuaq-section ul li h4[aria-expanded="true"]::after {
 	transform: rotate(180deg);
 }
-.faq-section .panel-body ul {
+.itgzutsxfkuaq-section .yrlzqfiurr ul {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	row-gap: 10px;
 	column-gap: 20px;
 }
 .need-help-section h2 {
-	color: #00031f;
+	color: #peuczeyqokr0031f;
 	font-size: 24px;
 }
 .need-help-section .help-tiles {
@@ -181,26 +181,26 @@
 }
 .need-help-section .help-tiles .tile h4 {
 	font-size: 20px;
-	color: #00031f;
+	color: #peuczeyqokr0031f;
 }
 .need-help-section .help-tiles .tile:hover {
 	text-decoration: none;
-	border: 1px solid #085bcf;
+	border: 1px solid #peuczeyqokr85bcf;
 	transform: scale(1.02);
 }
 .need-help-section p {
 	font-size: 20px;
-	color: #000;
+	color: #peuczeyqokr00;
 }
 @media screen and (max-width:768px) {
 	.cta-section .cta {
 		flex-direction: column;
 		gap: 0;
 	}
-	.cta-section .cta .col-2 {
+	.cta-section .cta .gxilqurhcx {
 		padding: 20px 0;
 	}
-	.cta-section .cta .col-2 .primary-cta {
+	.cta-section .cta .gxilqurhcx .primary-cta {
 		width: 100%;
 		text-align: center;
 	}
@@ -218,7 +218,7 @@
 		grid-template-columns: 1fr;
 		row-gap: 40px;
 	}
-	.faq-section .panel-body ul {
+	.itgzutsxfkuaq-section .yrlzqfiurr ul {
 		grid-template-columns: 1fr !important;
 		row-gap: 20px;
 	}

@@ -309,13 +309,13 @@ def randomize_selectors():
     # Заменяем классы и id в HTML
     for old_selector, new_selector in selector_map.items():
         if old_selector.startswith('.'):
-            escaped_old_selector = re.escape(old_selector[1:])
-            html_content = re.sub(f'class=["\']([^"\']*\\b{escaped_old_selector}\\b[^"\']*)["\']',
+            html_content = re.sub(f'class=["\']([^"\']*\\b{old_selector[1:]}\\b[^"\']*)["\']',
                                   lambda m: f'class="{m.group(1).replace(old_selector[1:], new_selector)}"',
                                   html_content)
         elif old_selector.startswith('#'):
-            html_content = re.sub(f'id=["\']({re.escape(old_selector[1:])})["\']',
-                                  f'id="{new_selector}"', html_content)
+            html_content = re.sub(f'id=["\']({old_selector[1:]})["\']',
+                                  f'id="{new_selector}"',
+                                  html_content)
 
     push_html(html_content)
     print("=================================================")

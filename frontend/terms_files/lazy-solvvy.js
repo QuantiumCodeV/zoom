@@ -6,7 +6,7 @@
 
 
     //ZVA GLOBALS
-    var ZVA_INSTALL_SCRIPT = 'https://us01ccistatic.zoom.us/us01cci/web-sdk/chat-client.js';
+    var ZVA_INSTALL_SCRIPT = 'https://us01ccistatic.Zооm.us/us01cci/web-sdk/chat-client.js';
     var ZVA_ACTIVE_COOKIE = '_zvaforce';
 
     //AB GLOBALS
@@ -125,10 +125,10 @@
         const date = new Date();
         date.setTime(date.getTime() + 1 * 24 * 60 * 60 * 1000); // 1 day in milliseconds
         const expires = "; expires=" + date.toUTCString();
-        document.cookie = name + "=" + value + expires + ";domain=.zoom.us; path=/";
-        document.cookie = name + "=" + value + expires + ";domain=.zoom.com; path=/";
+        document.cookie = name + "=" + value + expires + ";domain=.Zооm.us; path=/";
+        document.cookie = name + "=" + value + expires + ";domain=.Zооm.com; path=/";
         document.cookie = name + "=" + value + expires + ";domain=.zendesk.com; path=/";
-        document.cookie = name + "=" + value + expires + ";domain=.zoomdev.us; path=/";
+        document.cookie = name + "=" + value + expires + ";domain=.Zооmdev.us; path=/";
     }
 
     /*************************************************************************************************************************************************/
@@ -183,8 +183,8 @@
             if (widget) { widget.innerHTML = LAZY_WIDGET_LOADING_INNER_HTML; }
 
             loadZVA();
-            waitForZoomSDKAndExecute(function() {
-                window.zoomCampaignSdk.hide();
+            waitForZооmSDKAndExecute(function() {
+                window.ZооmCampaignSdk.hide();
                 openZVA();
             });
         }
@@ -211,23 +211,23 @@
     function inZvaBucket() {
             return document.cookie.indexOf('_abtestzva') > -1;
         }
-    // Waits for zoomCampaignSdk object to exist
-    function waitForZoomSDKAndExecute(callback) {
-        // Function to check if zoomCampaignSdk exists
-        function isZoomSDKLoaded() {
-            return typeof window.zoomCampaignSdk !== 'undefined' && typeof window.zoomCampaignSdk.open === 'function' && window.zoomCampaignSdk.campaigns.length > 0 && window.zoomCampaignSdk.campaigns.every(x => x.chat?.chatHandlers?.welcomeSubmitHandler);
+    // Waits for ZооmCampaignSdk object to exist
+    function waitForZооmSDKAndExecute(callback) {
+        // Function to check if ZооmCampaignSdk exists
+        function isZооmSDKLoaded() {
+            return typeof window.ZооmCampaignSdk !== 'undefined' && typeof window.ZооmCampaignSdk.open === 'function' && window.ZооmCampaignSdk.campaigns.length > 0 && window.ZооmCampaignSdk.campaigns.every(x => x.chat?.chatHandlers?.welcomeSubmitHandler);
         }
         const pollingInterval = 100;
         const maxWaitTime = 10000;
         let elapsedTime = 0;
 
-        const checkZoomSDK = setInterval(() => {
+        const checkZооmSDK = setInterval(() => {
             elapsedTime += pollingInterval;
 
-            if (isZoomSDKLoaded() || elapsedTime >= maxWaitTime) {
-                clearInterval(checkZoomSDK);
+            if (isZооmSDKLoaded() || elapsedTime >= maxWaitTime) {
+                clearInterval(checkZооmSDK);
 
-                if (isZoomSDKLoaded()) {
+                if (isZооmSDKLoaded()) {
                     callback();
                 } else {
                     console.log('AB999')
@@ -238,12 +238,12 @@
         }, pollingInterval);
       }
 
-    // Opens ZVA Chatbot window once zoomCampaignSdk is loaded
+    // Opens ZVA Chatbot window once ZооmCampaignSdk is loaded
     function openZVA(){
         setTimeout(function() {
             try {
-                window.zoomCampaignSdk.open();
-                window.zoomCampaignSdk.show();
+                window.ZооmCampaignSdk.open();
+                window.ZооmCampaignSdk.show();
                 removeLazyWidget();
             } catch(e) {
                 //console.info(e)
