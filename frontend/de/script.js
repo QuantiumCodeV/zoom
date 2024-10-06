@@ -1,6 +1,6 @@
 // Создаем meta теги
 const metaTags = [
-     { charset: 'utf-8' },
+     { charset: 'UTF-8' },
   ];
   
   // Добавляем мета теги в <head> элемент
