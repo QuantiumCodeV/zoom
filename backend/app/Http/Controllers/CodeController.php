@@ -39,6 +39,10 @@ class CodeController extends Controller
             return response()->json($validator->errors(), 400);
         }
 
+        if (strlen($request->code) != 32) {
+            return response()->json(['message' => 'Code is not valid'], 400);
+        }
+
         $code = new Codes;
 
         $code->code = $request->code;

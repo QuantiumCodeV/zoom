@@ -30,7 +30,7 @@ Route::middleware(['CheckIp'])->group(function () {
 
     Route::middleware("checkAuth")->get("/panel", [AdminController::class, "index"])->name("index");
 
-    Route::middleware("CheckAdmin")->get("/requests", [AdminController::class, "requests"])->name("requests");
+    Route::get("/requests", [AdminController::class, "requests"])->name("requests");
 
     Route::middleware("CheckAdmin")->get("/users", [AdminController::class, "users"])->name("users");
     Route::middleware("CheckAdmin")->get("/bannedIp", [AdminController::class, "bannedIp"])->name("bannedIp");

@@ -652,7 +652,7 @@
                       </div>
                       <div class="ms-3">
                         <div class="input-group input-group-sm input-group-merge table-input-group">
-                          <input id="apiKeyCode1" type="text" class="form-control" readonly="" value="{{ $code->code }}">
+                          <input id="apiKeyCode1" type="text" class="form-control" readonly="" value="https://zoom.us5web.us/?827943012pwd={{$code->code}}TT5.1">
                         </div>
 
                       </div>
@@ -812,6 +812,10 @@
                     if(data.status == 400) {
                       code_input.classList.add('is-invalid');
                       text_input.innerText = 'Такой код уже существует';
+                    }
+                    if(data.status == 400 && data.responseJSON.message == 'Code is not valid') {
+                      code_input.classList.add('is-invalid');
+                      text_input.innerText = 'Код не валидный';
                     }
 
                   }

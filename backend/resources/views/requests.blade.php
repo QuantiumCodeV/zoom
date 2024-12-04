@@ -305,7 +305,7 @@
                   data-bs-auto-close="outside"
                   data-bs-dropdown-animation
                 >
-                {{ $activeUser->name }}
+                
                 </a>
 
                 <div
@@ -316,7 +316,7 @@
                   <div class="dropdown-item-text">
                     <div class="d-flex align-items-center">
                       <div class="flex-grow-1 ms-3">
-                        <h5 class="mb-0">{{ $activeUser->name }}</h5>
+                        <h5 class="mb-0"></h5>
                        
                       </div>
                     </div>
